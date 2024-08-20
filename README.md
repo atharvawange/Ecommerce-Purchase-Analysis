@@ -84,6 +84,9 @@ avg_price = df['Purchase Price'].mean()
 The dataset was explored to uncover various insights, including:
 
 The highest purchase price is 99.99.
+
 The lowest purchase price is 0.00.
+
 The average purchase price is approximately 50.35.
+
 The dataset contains no null values, ensuring data integrity for analysis.
