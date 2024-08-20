@@ -34,50 +34,52 @@ The dataset used in this project consists of 10,000 rows and 14 columns. It incl
 ## Installation
 
 To run the analysis, you'll need to have Python installed along with the following libraries:
-
+```plaintext
 pip install pandas numpy matplotlib seaborn
+```
+## Usage
 
-Usage
 To perform the analysis, you can run the Analysis.ipynb notebook, which contains the following steps:
 
 Import Libraries:
-
+```plaintext
 import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 import seaborn as sns
-
+```
 Load the Dataset:
-
+```plaintext
 df = pd.read_csv('path_to_your_dataset/Ecommerce Purchases Dataset.csv')
-
+```
 Display the Top 10 Rows:
-
+```plaintext
 df.head(10)
-
+```
 Display the Last 10 Rows:
-
+```plaintext
 df.tail(10)
-
+```
 Check Data Types of Each Column:
-
+```plaintext
 df.dtypes
-
+```
 Check for Null Values:
-
+```plaintext
 df.isnull().sum()
-
+```
 Calculate the Highest and Lowest Purchase Prices:
-
+```plaintext
 max_price = df['Purchase Price'].max()
 
 min_price = df['Purchase Price'].min()
-
+```
 Calculate the Average Purchase Price:
-
+```plaintext
 avg_price = df['Purchase Price'].mean()
+```
 
-Data Exploration
+## Data Exploration
 
 The dataset was explored to uncover various insights, including:
 
